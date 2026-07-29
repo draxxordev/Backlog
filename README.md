@@ -9,15 +9,15 @@ This package contains four comprehensive Lua modules:
 
 ### 1. **Backlog.lua** — Core Module
 The main queueing engine with:
-- ✅ Priority-based item ordering (binary search insertion)
-- ✅ Automatic retry logic with configurable delays
-- ✅ Concurrent processing with rate limiting
-- ✅ Dead letter queue for failed items
-- ✅ Distributed locking via MemoryStore
-- ✅ Real-time metrics collection
-- ✅ Graceful pause/resume/shutdown
-- ✅ Item tagging and categorization
-- ✅ Configurable logging (DEBUG/INFO/WARN/ERROR)
+- ✔ Priority-based item ordering (binary search insertion)
+- ✔ Automatic retry logic with configurable delays
+- ✔ Concurrent processing with rate limiting
+- ✔ Dead letter queue for failed items
+- ✔ Distributed locking via MemoryStore
+- ✔ Real-time metrics collection
+- ✔ Graceful pause/resume/shutdown
+- ✔ Item tagging and categorization
+- ✔ Configurable logging (Debug/Info/Warn/Error)
 
 **Size:** ~600 lines | **Type annotations:** Luau strict mode
 
