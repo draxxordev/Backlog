@@ -1,6 +1,6 @@
 # Backlog: A Batch-Ready Task Queueing System
 
-A robust, feature-rich task queueing system designed for Roblox servers. Handles asynchronous operations with automatic retry logic, priority ordering, distributed locking, and comprehensive metrics.
+A strict, advanced task queueing system designed for Roblox servers. Handles asynchronous operations with automatic retry logic, priority ordering, distributed locking, and comprehensive metrics.
 
 ## Table of Contents
 
