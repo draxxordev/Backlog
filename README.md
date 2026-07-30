@@ -1,7 +1,7 @@
 # Backlog
 ### A Complete Task Queueing Library
 
-> A comprehensive, advanced task queueing system for Roblox designed to handle complex asynchronous tassks with production-level reliability, monitoring, understandable API, and performance.
+> A comprehensive, advanced task queueing system for Roblox designed to handle complex asynchronous tasks with production-level reliability, monitoring, understandable API, and performance.
 
 ## 📦 What You Get
 
