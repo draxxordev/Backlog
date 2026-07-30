@@ -5,7 +5,7 @@
 
 ## 📦 What You Get
 
-This package contains four comprehensive Lua modules:
+This package contains four comprehensive Luau modules:
 
 ### 1. **Backlog.lua** — Core Module
 The main queueing engine with:
