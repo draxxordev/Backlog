@@ -345,7 +345,7 @@ The module includes production-ready implementations for:
 
 ## 🔐 Production Checklist
 
-Before deploying to production:
+Before applying, be sure to:
 
 - [ ] Configure appropriate preset for your use case
 - [ ] Set up metrics monitoring
@@ -426,10 +426,10 @@ Suitable for commercial and open-source Roblox games.
 
 ---
 
-**Version:** 2.0 (Production)
-**Status:** Ready for Production Use
-**Last Updated:** 2024
-**Tested on:** Roblox Studio (Latest)
+**Version:** 1.0.0 (Release)
+**Status:** Ready for Full Use
+**Last Updated:** 7/29/26
+**Tested on:** Roblox Studio + VSCode (Luau) (Latest)
 **Luau Mode:** Strict type checking enabled
 
 ## 🎉 Ready to Use
@@ -443,4 +443,6 @@ queue:Push(data)
 queue:Process(callback)
 ```
 
-For more advanced usage, see the examples and documentation files. Happy queueing! 🚀
+For more advanced usage, see the examples and documentation files. Happy queueing! ❤
+
+By @Draxxor
