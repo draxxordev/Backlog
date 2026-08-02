@@ -3,7 +3,7 @@
 
 > A comprehensive, advanced task queueing system for Roblox designed to handle complex asynchronous tasks with production-level reliability, monitoring, understandable API, and performance.
 
-## 📦 What You Get
+## What You Get
 
 This package contains four comprehensive Luau modules:
 
@@ -56,7 +56,7 @@ Comprehensive documentation:
 
 **Content:** 700+ lines | **Production specification**
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Basic Setup (30 seconds)
 
@@ -103,7 +103,7 @@ queue:Process(function(item)
 end)
 ```
 
-## 📊 Feature Comparison
+## Feature Comparison
 
 | Feature | Original | Production |
 |---------|----------|-----------|
@@ -122,9 +122,9 @@ end)
 | **Comprehensive docs** | 🔴 | 🟢 |
 | **Type annotations** | 🔴 | 🟢 |
 
-## 🎯 Use Cases
+## Use Cases
 
-### 🟢 Optimal For
+### Optimal For
 - **Data persistence** — Saving player data, game state
 - **API integration** — HTTP requests, webhooks
 - **Event processing** — Game events, player activities
@@ -133,12 +133,12 @@ end)
 - **Load balancing** — Rate-limited operations
 - **Critical operations** — Retry logic, guaranteed delivery
 
-### ⚠️ Consider If
+### Consider If
 - Single-threaded processing (queue them anyway, monitor performance)
 - Real-time requirements (adjust timeouts, increase concurrency)
 - Memory-constrained (use Light preset, reduce MaxSize)
 
-## 📈 Performance Characteristics
+## Performance Characteristics
 
 ### Benchmarks (Standard Preset)
 
@@ -160,7 +160,7 @@ Rate limit:        100 items/sec (configurable)
 | Large server (1000+ players) | Use `HighThroughput` preset |
 | Development/testing | Use `Debug` preset |
 
-## 🔧 Integration Examples
+## Integration Examples
 
 ### Example 1: Player Data Saving
 
@@ -211,7 +211,7 @@ pipeline:push({userId = 123, data = "value"})
 pipeline:start()
 ```
 
-## 📋 API Overview
+## API Overview
 
 ### Core Operations
 - `Push(data, priority?, tags?)` — Add item to queue
@@ -235,9 +235,9 @@ pipeline:start()
 - `Shutdown()` — Graceful shutdown
 - `Clear()` — Remove all items
 
-## 🎓 Best Practices
+## Best Practices
 
-### 🟢 DO
+### DO
 
 ```lua
 -- Return true/false from callback
@@ -266,7 +266,7 @@ game:BindToClose(function()
 end)
 ```
 
-### 🔴 DON'T
+### DON'T
 
 ```lua
 -- Don't forget to return a value
@@ -291,7 +291,7 @@ queue:Process(function(item)
 end)
 ```
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
 ### Queue is backing up?
 1. Increase `MaxConcurrent` (process more in parallel)
@@ -310,7 +310,7 @@ end)
 
 See `BACKLOG_DOCUMENTATION.md` for detailed troubleshooting guide.
 
-## 📚 Documentation Structure
+## Documentation Structure
 
 ```
 ├── Backlog.lua                    (Core module)
@@ -320,7 +320,7 @@ See `BACKLOG_DOCUMENTATION.md` for detailed troubleshooting guide.
 └── README.md                     (This file)
 ```
 
-## 🎯 Key Metrics
+## Key Metrics
 
 When monitoring in production, watch these:
 
@@ -332,7 +332,7 @@ SuccessRate        → Target > 99%
 AverageLatency     → Should be < 100ms
 ```
 
-## 💡 Real-World Examples in Code
+## Use Example Cases
 
 The module includes production-ready implementations for:
 
@@ -343,22 +343,7 @@ The module includes production-ready implementations for:
 5. **Database WAL** — Write-ahead logging pattern
 6. **Player Management** — Autosave and disconnect handling
 
-## 🔐 Production Checklist
-
-Before applying, be sure to:
-
-- [ ] Configure appropriate preset for your use case
-- [ ] Set up metrics monitoring
-- [ ] Add dead letter queue processing
-- [ ] Test with stress testing utilities
-- [ ] Verify graceful shutdown handling
-- [ ] Monitor memory usage
-- [ ] Configure logging appropriately
-- [ ] Document your queue priorities
-- [ ] Test failure scenarios
-- [ ] Plan for scaling
-
-## 📊 When to Use Which Preset
+## When to Use Which Preset
 
 ```
 Light
@@ -382,7 +367,7 @@ Debug
 └─ Troubleshooting issues
 ```
 
-## 🚀 Performance Optimization Tips
+## Performance Optimization Tips
 
 ### For Latency
 ```lua
@@ -410,14 +395,14 @@ local queue = Backlog.new({
 })
 ```
 
-## 📝 License & Attribution
+## License & Attribution
 
 Original module by @draxxordev
 Production expansion with comprehensive features, documentation, and patterns.
 
 Suitable for commercial and open-source Roblox games.
 
-## 🤝 Support
+## Support
 
 - **Reference:** See `BACKLOG_DOCUMENTATION.md`
 - **Examples:** See `BacklogExamples.lua`
@@ -432,7 +417,7 @@ Suitable for commercial and open-source Roblox games.
 **Tested on:** Roblox Studio + VSCode (Luau) (Latest)
 **Luau Mode:** Strict type checking enabled
 
-## 🎉 Ready to Use
+## Ready to Use
 
 Simply require the module and start queuing:
 
