@@ -731,6 +731,5 @@ For issues, questions, or improvements, refer to the original module source or c
 
 ---
 
-**Last Updated:** 2024
-**Status:** Production Ready
-**Lua Version:** Luau (strict mode compatible)
+**Last Updated:** 7/29/26
+**Status:** Stable
